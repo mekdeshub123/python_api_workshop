@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b938e2b8f22048d58ba63dafbd699de7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b938e2b8f22048d58ba63dafbd699de7" ></div>
+        
+</body>
+<script>    
+    
+            var map_b938e2b8f22048d58ba63dafbd699de7 = L.map(
+                "map_b938e2b8f22048d58ba63dafbd699de7",
+                {
+                    center: [44.97, -93.26],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4fd8a51efd194e8aae29feb16bb35852 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+            var marker_f20ad924a9334ee8b885636d9679571a = L.marker(
+                [44.9589542099465, -93.2777589606123],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_02a61b1546404b41abf2d0706134dd2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3629ed962b34520b0d39bad537e5e87 = $(`<div id="html_c3629ed962b34520b0d39bad537e5e87" style="width: 100.0%; height: 100.0%;"><p><b>A Slice of New York</b></p><p>4.0 stars</p><p>2407 Nicollet Ave, Minneapolis, MN 55404</p></div>`)[0];
+            popup_02a61b1546404b41abf2d0706134dd2e.setContent(html_c3629ed962b34520b0d39bad537e5e87);
+        
+
+        marker_f20ad924a9334ee8b885636d9679571a.bindPopup(popup_02a61b1546404b41abf2d0706134dd2e)
+        ;
+
+        
+    
+    
+            var marker_9e45a425ff9c4973aca260d9b14612da = L.marker(
+                [44.9765208712413, -93.271502682209],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_50b07f7b58ee4f99bbff5a8b6fd2b4ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ea2c97eec5843d5854ecef0b079292f = $(`<div id="html_3ea2c97eec5843d5854ecef0b079292f" style="width: 100.0%; height: 100.0%;"><p><b>Ginellis Pizza</b></p><p>4.5 stars</p><p>121 S 8th St, Ste 235, Minneapolis, MN 55402</p></div>`)[0];
+            popup_50b07f7b58ee4f99bbff5a8b6fd2b4ca.setContent(html_3ea2c97eec5843d5854ecef0b079292f);
+        
+
+        marker_9e45a425ff9c4973aca260d9b14612da.bindPopup(popup_50b07f7b58ee4f99bbff5a8b6fd2b4ca)
+        ;
+
+        
+    
+    
+            var marker_e61877ec3837471c9903da86d64862a6 = L.marker(
+                [44.9808327904414, -93.2361996284807],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_6a32d39b82df41d9957fd520d3d56788 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44abbb49cdb44ee8a781a5021fff52c7 = $(`<div id="html_44abbb49cdb44ee8a781a5021fff52c7" style="width: 100.0%; height: 100.0%;"><p><b>Mesa Pizza</b></p><p>4.0 stars</p><p>1323 4th St SE, Minneapolis, MN 55414</p></div>`)[0];
+            popup_6a32d39b82df41d9957fd520d3d56788.setContent(html_44abbb49cdb44ee8a781a5021fff52c7);
+        
+
+        marker_e61877ec3837471c9903da86d64862a6.bindPopup(popup_6a32d39b82df41d9957fd520d3d56788)
+        ;
+
+        
+    
+    
+            var marker_3e9456a2514044ec91dd9e52598f05ce = L.marker(
+                [44.9119615, -93.308501],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_9f64443ec79844c59c50ace21d35ff1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e2b7c3af4d344bd988a4f5b8e5e3cfb = $(`<div id="html_8e2b7c3af4d344bd988a4f5b8e5e3cfb" style="width: 100.0%; height: 100.0%;"><p><b>Lake Harriet Pizza</b></p><p>4.0 stars</p><p>5009 Penn Ave S, Minneapolis, MN 55419</p></div>`)[0];
+            popup_9f64443ec79844c59c50ace21d35ff1b.setContent(html_8e2b7c3af4d344bd988a4f5b8e5e3cfb);
+        
+
+        marker_3e9456a2514044ec91dd9e52598f05ce.bindPopup(popup_9f64443ec79844c59c50ace21d35ff1b)
+        ;
+
+        
+    
+    
+            var marker_27d855cb88384030b0949cf652dd8ee5 = L.marker(
+                [44.9765281677246, -93.2683868408203],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_1f3cb24ee67a4d4d8bda5b5834d86403 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39c0d3ac5b284214a695a5584b8ea2f1 = $(`<div id="html_39c0d3ac5b284214a695a5584b8ea2f1" style="width: 100.0%; height: 100.0%;"><p><b>Andrea Pizza</b></p><p>4.5 stars</p><p>225 S 6th St, Minneapolis, MN 55402</p></div>`)[0];
+            popup_1f3cb24ee67a4d4d8bda5b5834d86403.setContent(html_39c0d3ac5b284214a695a5584b8ea2f1);
+        
+
+        marker_27d855cb88384030b0949cf652dd8ee5.bindPopup(popup_1f3cb24ee67a4d4d8bda5b5834d86403)
+        ;
+
+        
+    
+    
+            var marker_7dea5c4f64bb4d3faf57311a1ae0fe23 = L.marker(
+                [44.9797456598687, -93.272697774138],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_80abfe063bd54ef781d203928aa79c3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b49fd12ca8dd47e39eea27c6bec45e98 = $(`<div id="html_b49fd12ca8dd47e39eea27c6bec45e98" style="width: 100.0%; height: 100.0%;"><p><b>Sal's on Fifth</b></p><p>3.5 stars</p><p>10 N 5th St, Minneapolis, MN 55403</p></div>`)[0];
+            popup_80abfe063bd54ef781d203928aa79c3e.setContent(html_b49fd12ca8dd47e39eea27c6bec45e98);
+        
+
+        marker_7dea5c4f64bb4d3faf57311a1ae0fe23.bindPopup(popup_80abfe063bd54ef781d203928aa79c3e)
+        ;
+
+        
+    
+    
+            var marker_fd53986f03ba4d6dae338d904cbb0dd3 = L.marker(
+                [44.9758720397949, -93.2744674682617],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_512e0974765d4e32bf7b98ef5119c6d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b24579b8890a4bfe9a9b85ec91573e4e = $(`<div id="html_b24579b8890a4bfe9a9b85ec91573e4e" style="width: 100.0%; height: 100.0%;"><p><b>Andrea Pizza</b></p><p>4.0 stars</p><p>811 Lasalle Ave, Minneapolis, MN 55402</p></div>`)[0];
+            popup_512e0974765d4e32bf7b98ef5119c6d6.setContent(html_b24579b8890a4bfe9a9b85ec91573e4e);
+        
+
+        marker_fd53986f03ba4d6dae338d904cbb0dd3.bindPopup(popup_512e0974765d4e32bf7b98ef5119c6d6)
+        ;
+
+        
+    
+    
+            var marker_23638995098f454eb648e79aba1fa18d = L.marker(
+                [44.9735056, -93.2236133],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_f795807e6d8846c1a13d2379c6e99289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9671664fc5704c69b4b2775c5a8b2b2d = $(`<div id="html_9671664fc5704c69b4b2775c5a8b2b2d" style="width: 100.0%; height: 100.0%;"><p><b>Blaze Fast-Fire'd Pizza</b></p><p>4.5 stars</p><p>1000 SE Washington Ave, Minneapolis, MN 55414</p></div>`)[0];
+            popup_f795807e6d8846c1a13d2379c6e99289.setContent(html_9671664fc5704c69b4b2775c5a8b2b2d);
+        
+
+        marker_23638995098f454eb648e79aba1fa18d.bindPopup(popup_f795807e6d8846c1a13d2379c6e99289)
+        ;
+
+        
+    
+    
+            var marker_47d2fe2134e74e86be1e5bb41b51bf38 = L.marker(
+                [44.9815086, -93.2379534],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_c3503e8fad3e460ba52efe2b8f9246ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2562c378d1e47feb0bc4cb52358a5d0 = $(`<div id="html_f2562c378d1e47feb0bc4cb52358a5d0" style="width: 100.0%; height: 100.0%;"><p><b>Frank From Philly & Andrea Pizza</b></p><p>4.0 stars</p><p>1235 4th St. SE, Minneapolis, MN 55414</p></div>`)[0];
+            popup_c3503e8fad3e460ba52efe2b8f9246ef.setContent(html_f2562c378d1e47feb0bc4cb52358a5d0);
+        
+
+        marker_47d2fe2134e74e86be1e5bb41b51bf38.bindPopup(popup_c3503e8fad3e460ba52efe2b8f9246ef)
+        ;
+
+        
+    
+    
+            var marker_69b60fff242e46249858635d74318113 = L.marker(
+                [45.0120728, -93.2471506],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_d732072ed5d3427eaa3c3745559dcf31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1e6e0d71a084bb4b4fa22ed74e4ded5 = $(`<div id="html_b1e6e0d71a084bb4b4fa22ed74e4ded5" style="width: 100.0%; height: 100.0%;"><p><b>Football Pizza</b></p><p>4.0 stars</p><p>2339 Central Ave NE, Minneapolis, MN 55418</p></div>`)[0];
+            popup_d732072ed5d3427eaa3c3745559dcf31.setContent(html_b1e6e0d71a084bb4b4fa22ed74e4ded5);
+        
+
+        marker_69b60fff242e46249858635d74318113.bindPopup(popup_d732072ed5d3427eaa3c3745559dcf31)
+        ;
+
+        
+    
+    
+            var marker_2fdf9c44b44e4fc9ba9550e0e2960529 = L.marker(
+                [44.948530170508, -93.299314011232],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_40fb1ae7e9624226aa500db64b97970b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61605161238b4c4997f69cb1428cd38e = $(`<div id="html_61605161238b4c4997f69cb1428cd38e" style="width: 100.0%; height: 100.0%;"><p><b>Mesa Pizza</b></p><p>3.5 stars</p><p>1440 W Lake St, Minneapolis, MN 55408</p></div>`)[0];
+            popup_40fb1ae7e9624226aa500db64b97970b.setContent(html_61605161238b4c4997f69cb1428cd38e);
+        
+
+        marker_2fdf9c44b44e4fc9ba9550e0e2960529.bindPopup(popup_40fb1ae7e9624226aa500db64b97970b)
+        ;
+
+        
+    
+    
+            var marker_971826c06d594166a64958d27b5b8d37 = L.marker(
+                [44.9736018, -93.2268074],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_c75a5093112c43299847045bb6b92913 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87d65b7c827a4ee7a561cc4f9e66be3b = $(`<div id="html_87d65b7c827a4ee7a561cc4f9e66be3b" style="width: 100.0%; height: 100.0%;"><p><b>Punch Neapolitan Pizza - Stadium Village</b></p><p>4.5 stars</p><p>802 Washington Ave SE, Minneapolis, MN 55414</p></div>`)[0];
+            popup_c75a5093112c43299847045bb6b92913.setContent(html_87d65b7c827a4ee7a561cc4f9e66be3b);
+        
+
+        marker_971826c06d594166a64958d27b5b8d37.bindPopup(popup_c75a5093112c43299847045bb6b92913)
+        ;
+
+        
+    
+    
+            var marker_ca21e0d5cc3c48908dadbd6db3d397ea = L.marker(
+                [44.974805, -93.281171],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_fe7ae0d4bcb64121835d612c5723b06a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2c24dbe093e4985950a77aad3b6c91a = $(`<div id="html_c2c24dbe093e4985950a77aad3b6c91a" style="width: 100.0%; height: 100.0%;"><p><b>Davanni's Pizza & Hot Hoagies</b></p><p>3.5 stars</p><p>1242 Hennepin Ave, Minneapolis, MN 55403</p></div>`)[0];
+            popup_fe7ae0d4bcb64121835d612c5723b06a.setContent(html_c2c24dbe093e4985950a77aad3b6c91a);
+        
+
+        marker_ca21e0d5cc3c48908dadbd6db3d397ea.bindPopup(popup_fe7ae0d4bcb64121835d612c5723b06a)
+        ;
+
+        
+    
+    
+            var marker_f190a6818da44a6989a7551a28b43344 = L.marker(
+                [44.97377, -93.3087],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_a2334caca96645ea9589ac3bbfc9df11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85318f56167f4c6db5ef3d64d9a7c1b9 = $(`<div id="html_85318f56167f4c6db5ef3d64d9a7c1b9" style="width: 100.0%; height: 100.0%;"><p><b>Bryn Mawr Pizza & Deli</b></p><p>3.5 stars</p><p>404 Cedar Lake Rd S, Minneapolis, MN 55405</p></div>`)[0];
+            popup_a2334caca96645ea9589ac3bbfc9df11.setContent(html_85318f56167f4c6db5ef3d64d9a7c1b9);
+        
+
+        marker_f190a6818da44a6989a7551a28b43344.bindPopup(popup_a2334caca96645ea9589ac3bbfc9df11)
+        ;
+
+        
+    
+    
+            var marker_be6ce8fde8844cb9a1681bc9d858b039 = L.marker(
+                [44.94937, -93.36029],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_3bfd5f0a369c4e8eb244a8a407de8a91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2baed75e952c48cb8fd94a3fd42ab85d = $(`<div id="html_2baed75e952c48cb8fd94a3fd42ab85d" style="width: 100.0%; height: 100.0%;"><p><b>Parkway Pizza</b></p><p>4.0 stars</p><p>6325 Minnetonka Blvd, St Louis Park, MN 55416</p></div>`)[0];
+            popup_3bfd5f0a369c4e8eb244a8a407de8a91.setContent(html_2baed75e952c48cb8fd94a3fd42ab85d);
+        
+
+        marker_be6ce8fde8844cb9a1681bc9d858b039.bindPopup(popup_3bfd5f0a369c4e8eb244a8a407de8a91)
+        ;
+
+        
+    
+    
+            var marker_310f3b8a3ef642b8a9f18dca72f9fd15 = L.marker(
+                [44.95612, -93.29691],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_41f2609f5297411fabbc4bbc9c82635f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_825c9d5e76e44127a1a8cd6abf3b1d97 = $(`<div id="html_825c9d5e76e44127a1a8cd6abf3b1d97" style="width: 100.0%; height: 100.0%;"><p><b>Soho Cafe</b></p><p>4.0 stars</p><p>2532 Hennepin Ave, Minneapolis, MN 55405</p></div>`)[0];
+            popup_41f2609f5297411fabbc4bbc9c82635f.setContent(html_825c9d5e76e44127a1a8cd6abf3b1d97);
+        
+
+        marker_310f3b8a3ef642b8a9f18dca72f9fd15.bindPopup(popup_41f2609f5297411fabbc4bbc9c82635f)
+        ;
+
+        
+    
+    
+            var marker_601d7f3508f0440da8960a460810bd02 = L.marker(
+                [44.97838, -93.26121],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_82f36097eb8b40a4bc93799f1682bab0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5651e82f53ad4b779446fffde79e4f38 = $(`<div id="html_5651e82f53ad4b779446fffde79e4f38" style="width: 100.0%; height: 100.0%;"><p><b>Hop21</b></p><p>4.0 stars</p><p>501 Washington Ave S, Minneapolis, MN 55415</p></div>`)[0];
+            popup_82f36097eb8b40a4bc93799f1682bab0.setContent(html_5651e82f53ad4b779446fffde79e4f38);
+        
+
+        marker_601d7f3508f0440da8960a460810bd02.bindPopup(popup_82f36097eb8b40a4bc93799f1682bab0)
+        ;
+
+        
+    
+    
+            var marker_a060bf04d9ee47118e5f72c5bf7f8cff = L.marker(
+                [44.921912, -93.3294779],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_497ac29054214f7f866b38ef2b20f7fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35d538db5e3f4b438b1030e3e61e8b30 = $(`<div id="html_35d538db5e3f4b438b1030e3e61e8b30" style="width: 100.0%; height: 100.0%;"><p><b>Hello Pizza</b></p><p>3.5 stars</p><p>3904 Sunnyside Rd, Edina, MN 55424</p></div>`)[0];
+            popup_497ac29054214f7f866b38ef2b20f7fa.setContent(html_35d538db5e3f4b438b1030e3e61e8b30);
+        
+
+        marker_a060bf04d9ee47118e5f72c5bf7f8cff.bindPopup(popup_497ac29054214f7f866b38ef2b20f7fa)
+        ;
+
+        
+    
+    
+            var marker_2ef583b8886b42b681872e8a10958560 = L.marker(
+                [44.983334, -93.26667],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_76735441538d46bcb57fe4340ad0eada = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95130f98524844709ecae1b1e2dbd545 = $(`<div id="html_95130f98524844709ecae1b1e2dbd545" style="width: 100.0%; height: 100.0%;"><p><b>Tru Pizza Truck</b></p><p>4.5 stars</p><p>Minneapolis, MN 55402</p></div>`)[0];
+            popup_76735441538d46bcb57fe4340ad0eada.setContent(html_95130f98524844709ecae1b1e2dbd545);
+        
+
+        marker_2ef583b8886b42b681872e8a10958560.bindPopup(popup_76735441538d46bcb57fe4340ad0eada)
+        ;
+
+        
+    
+    
+            var marker_56afebdb6aed45e6befacefb2c98d380 = L.marker(
+                [45.00926, -93.31499],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_b61aa9d6e0fb488c929c5fa8351f4bda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a91ac1f59a74491594760c4e1f58881d = $(`<div id="html_a91ac1f59a74491594760c4e1f58881d" style="width: 100.0%; height: 100.0%;"><p><b>Pair of Dice Pizza</b></p><p>3.5 stars</p><p>2715 W Broadway Ave, Minneapolis, MN 55411</p></div>`)[0];
+            popup_b61aa9d6e0fb488c929c5fa8351f4bda.setContent(html_a91ac1f59a74491594760c4e1f58881d);
+        
+
+        marker_56afebdb6aed45e6befacefb2c98d380.bindPopup(popup_b61aa9d6e0fb488c929c5fa8351f4bda)
+        ;
+
+        
+    
+    
+            var marker_3e4b0474156643bbb1091f66e86c333a = L.marker(
+                [44.976517379571, -93.2699131965637],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_d781e8218b05461f89bb824461ed8e84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf8b524b61c0416dae31096bab8f66fa = $(`<div id="html_cf8b524b61c0416dae31096bab8f66fa" style="width: 100.0%; height: 100.0%;"><p><b>Sorrento Pizza & Pasta</b></p><p>4.0 stars</p><p>625 Marquette Ave, Northstar Center, Minneapolis, MN 55402</p></div>`)[0];
+            popup_d781e8218b05461f89bb824461ed8e84.setContent(html_cf8b524b61c0416dae31096bab8f66fa);
+        
+
+        marker_3e4b0474156643bbb1091f66e86c333a.bindPopup(popup_d781e8218b05461f89bb824461ed8e84)
+        ;
+
+        
+    
+    
+            var marker_c77566ec119d400a844735636907c613 = L.marker(
+                [44.9655876159668, -93.2358856201172],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_33c33a61134c48f883a8e89444d22e2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7694f79d1c1a4b8e9d1e14c8f6a9a2ae = $(`<div id="html_7694f79d1c1a4b8e9d1e14c8f6a9a2ae" style="width: 100.0%; height: 100.0%;"><p><b>Davanni's Pizza & Hot Hoagies</b></p><p>3.5 stars</p><p>2500 Riverside Ave, Minneapolis, MN 55454</p></div>`)[0];
+            popup_33c33a61134c48f883a8e89444d22e2b.setContent(html_7694f79d1c1a4b8e9d1e14c8f6a9a2ae);
+        
+
+        marker_c77566ec119d400a844735636907c613.bindPopup(popup_33c33a61134c48f883a8e89444d22e2b)
+        ;
+
+        
+    
+    
+            var marker_0144a51d7d24411bbfbbdd337715e914 = L.marker(
+                [44.88557, -93.20006],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_7bdd6b2acf5c436eb5d07b9b162efedd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7de96b0444d847a288a7f96c88106d5f = $(`<div id="html_7de96b0444d847a288a7f96c88106d5f" style="width: 100.0%; height: 100.0%;"><p><b>Little G's Mobile Pizzeria</b></p><p>4.5 stars</p><p>Minneapolis, MN 55111</p></div>`)[0];
+            popup_7bdd6b2acf5c436eb5d07b9b162efedd.setContent(html_7de96b0444d847a288a7f96c88106d5f);
+        
+
+        marker_0144a51d7d24411bbfbbdd337715e914.bindPopup(popup_7bdd6b2acf5c436eb5d07b9b162efedd)
+        ;
+
+        
+    
+    
+            var marker_5985dd7914544d77a291b32d65bb6020 = L.marker(
+                [44.97927, -93.26701],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_eecb6c44a49e4118a9bda61508af58e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_562ea2e23e9941cdaeea96bfa63b1f9d = $(`<div id="html_562ea2e23e9941cdaeea96bfa63b1f9d" style="width: 100.0%; height: 100.0%;"><p><b>Andrea Pizza</b></p><p>4.0 stars</p><p>330 2nd Ave S, Minneapolis, MN 55401</p></div>`)[0];
+            popup_eecb6c44a49e4118a9bda61508af58e6.setContent(html_562ea2e23e9941cdaeea96bfa63b1f9d);
+        
+
+        marker_5985dd7914544d77a291b32d65bb6020.bindPopup(popup_eecb6c44a49e4118a9bda61508af58e6)
+        ;
+
+        
+    
+    
+            var marker_5ea95574e0d7411ebced1fee7c71559d = L.marker(
+                [44.9749212, -93.2794835],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_1d2abe6b0a7747f6b6fe101b57b9d90a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40910132cbad4a2b957acecaeac18c43 = $(`<div id="html_40910132cbad4a2b957acecaeac18c43" style="width: 100.0%; height: 100.0%;"><p><b>Domino's Pizza</b></p><p>1.5 stars</p><p>1113 Hennepin Ave, Minneapolis, MN 55403</p></div>`)[0];
+            popup_1d2abe6b0a7747f6b6fe101b57b9d90a.setContent(html_40910132cbad4a2b957acecaeac18c43);
+        
+
+        marker_5ea95574e0d7411ebced1fee7c71559d.bindPopup(popup_1d2abe6b0a7747f6b6fe101b57b9d90a)
+        ;
+
+        
+    
+    
+            var marker_4604c8e79b73418cb14eef73b22e3b8a = L.marker(
+                [45.0337865, -93.3801119],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_a2c7219b7f834f318025a27c54ffccef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_698cc947792649408220dbd949d6b591 = $(`<div id="html_698cc947792649408220dbd949d6b591" style="width: 100.0%; height: 100.0%;"><p><b>Jet's Pizza</b></p><p>4.0 stars</p><p>4216 Winnetka Ave N, New Hope, MN 55428</p></div>`)[0];
+            popup_a2c7219b7f834f318025a27c54ffccef.setContent(html_698cc947792649408220dbd949d6b591);
+        
+
+        marker_4604c8e79b73418cb14eef73b22e3b8a.bindPopup(popup_a2c7219b7f834f318025a27c54ffccef)
+        ;
+
+        
+    
+    
+            var marker_a8b88e1eef1a4e50a5d28db195ca712f = L.marker(
+                [44.9602, -93.29377],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_6dad2c4838d54528a0495d473a4a6dd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea40ecad8fe54043ab565a11b390097a = $(`<div id="html_ea40ecad8fe54043ab565a11b390097a" style="width: 100.0%; height: 100.0%;"><p><b>Papa John's Pizza</b></p><p>1.5 stars</p><p>2226 Hennepin Ave, Minneapolis, MN 55405</p></div>`)[0];
+            popup_6dad2c4838d54528a0495d473a4a6dd4.setContent(html_ea40ecad8fe54043ab565a11b390097a);
+        
+
+        marker_a8b88e1eef1a4e50a5d28db195ca712f.bindPopup(popup_6dad2c4838d54528a0495d473a4a6dd4)
+        ;
+
+        
+    
+    
+            var marker_17b35314133a4e68a4c9fb9be13b5d11 = L.marker(
+                [44.9749717, -93.2790292],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_e73e4ab3df1844e2867284c32fdfe156 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b89914dbe6a478e9bb55cfdfa2c1af3 = $(`<div id="html_4b89914dbe6a478e9bb55cfdfa2c1af3" style="width: 100.0%; height: 100.0%;"><p><b>Pizza Hut</b></p><p>2.0 stars</p><p>1101 Hennepin Ave, Minneapolis, MN 55403</p></div>`)[0];
+            popup_e73e4ab3df1844e2867284c32fdfe156.setContent(html_4b89914dbe6a478e9bb55cfdfa2c1af3);
+        
+
+        marker_17b35314133a4e68a4c9fb9be13b5d11.bindPopup(popup_e73e4ab3df1844e2867284c32fdfe156)
+        ;
+
+        
+    
+    
+            var marker_2c19a9be6b4840238c8a785208c06e97 = L.marker(
+                [44.976326, -93.2705383],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_1a4855ba73124c32a889947fea49fbb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a640fdea2d914aa596050e3f5b2d84b2 = $(`<div id="html_a640fdea2d914aa596050e3f5b2d84b2" style="width: 100.0%; height: 100.0%;"><p><b>Cheetah Pizza</b></p><p>3.5 stars</p><p>110 S 7th St, Minneapolis, MN 55402</p></div>`)[0];
+            popup_1a4855ba73124c32a889947fea49fbb2.setContent(html_a640fdea2d914aa596050e3f5b2d84b2);
+        
+
+        marker_2c19a9be6b4840238c8a785208c06e97.bindPopup(popup_1a4855ba73124c32a889947fea49fbb2)
+        ;
+
+        
+    
+    
+            var marker_cb6f5c671359467f916226b994fda3ca = L.marker(
+                [45.008194, -93.359431],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_b29f9fa9519243c2b2183f35368cb72c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23b0dd37af44411bb2d4eb0a2f86185f = $(`<div id="html_23b0dd37af44411bb2d4eb0a2f86185f" style="width: 100.0%; height: 100.0%;"><p><b>Pizza Man</b></p><p>3.5 stars</p><p>2744 Douglas Dr N, Crystal, MN 55422</p></div>`)[0];
+            popup_b29f9fa9519243c2b2183f35368cb72c.setContent(html_23b0dd37af44411bb2d4eb0a2f86185f);
+        
+
+        marker_cb6f5c671359467f916226b994fda3ca.bindPopup(popup_b29f9fa9519243c2b2183f35368cb72c)
+        ;
+
+        
+    
+    
+            var marker_4ffa09cdeece489290ff5f75ee7fb73b = L.marker(
+                [44.880745, -93.325409],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_c2c1198c6efc43ed8d23e5a2a29ffb77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eeeebe069e0d4e158d480c9a7ab76b2c = $(`<div id="html_eeeebe069e0d4e158d480c9a7ab76b2c" style="width: 100.0%; height: 100.0%;"><p><b>DeLeo Bros. Pizza</b></p><p>4.5 stars</p><p>10 Southdale Ctr, Ste 1705, Edina, MN 55435</p></div>`)[0];
+            popup_c2c1198c6efc43ed8d23e5a2a29ffb77.setContent(html_eeeebe069e0d4e158d480c9a7ab76b2c);
+        
+
+        marker_4ffa09cdeece489290ff5f75ee7fb73b.bindPopup(popup_c2c1198c6efc43ed8d23e5a2a29ffb77)
+        ;
+
+        
+    
+    
+            var marker_3808d630733d49bfad47e4f6b942a78f = L.marker(
+                [44.9480476379395, -93.3500061035156],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_df35e834de204bcfa3dadc1956ce58d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94d51bf56acf4226bb34ffb7d124f137 = $(`<div id="html_94d51bf56acf4226bb34ffb7d124f137" style="width: 100.0%; height: 100.0%;"><p><b>Domino's Pizza</b></p><p>2.5 stars</p><p>5551 W Lake St, St Louis Park, MN 55416</p></div>`)[0];
+            popup_df35e834de204bcfa3dadc1956ce58d6.setContent(html_94d51bf56acf4226bb34ffb7d124f137);
+        
+
+        marker_3808d630733d49bfad47e4f6b942a78f.bindPopup(popup_df35e834de204bcfa3dadc1956ce58d6)
+        ;
+
+        
+    
+    
+            var marker_19ed85cce47d4c02abd184f8b4bbf3d4 = L.marker(
+                [44.911956339858, -93.353314886647],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_8703e87ba0404aa9b535bab3cf5db228 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39af54af474d42f8b92f72dcef0cdd45 = $(`<div id="html_39af54af474d42f8b92f72dcef0cdd45" style="width: 100.0%; height: 100.0%;"><p><b>Davanni's Pizza & Hot Hoagies</b></p><p>3.5 stars</p><p>5124 Gus Young Ln, Minneapolis, MN 55436</p></div>`)[0];
+            popup_8703e87ba0404aa9b535bab3cf5db228.setContent(html_39af54af474d42f8b92f72dcef0cdd45);
+        
+
+        marker_19ed85cce47d4c02abd184f8b4bbf3d4.bindPopup(popup_8703e87ba0404aa9b535bab3cf5db228)
+        ;
+
+        
+    
+    
+            var marker_4298779201f14135919ae9aded75e290 = L.marker(
+                [44.97902, -93.23456],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_66f33fab62f1473b94bb434dd87d94c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_690a2d2c3a744af6974567a825e49f16 = $(`<div id="html_690a2d2c3a744af6974567a825e49f16" style="width: 100.0%; height: 100.0%;"><p><b>D.P. Dough Minneapolis</b></p><p>3.5 stars</p><p>1501 University Ave SE, Ste 130, Minneapolis, MN 55414</p></div>`)[0];
+            popup_66f33fab62f1473b94bb434dd87d94c6.setContent(html_690a2d2c3a744af6974567a825e49f16);
+        
+
+        marker_4298779201f14135919ae9aded75e290.bindPopup(popup_66f33fab62f1473b94bb434dd87d94c6)
+        ;
+
+        
+    
+    
+            var marker_b3b6ab96cace45ffbb83df9390185143 = L.marker(
+                [44.9803373421313, -93.2742495650124],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_79b7480ecdb6439ca3ec96cc26a7d12e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb48d0348c864095b1ca54871ff6ed21 = $(`<div id="html_eb48d0348c864095b1ca54871ff6ed21" style="width: 100.0%; height: 100.0%;"><p><b>Pizza La Vista</b></p><p>2.0 stars</p><p>504 1st Ave N, Minneapolis, MN 55403</p></div>`)[0];
+            popup_79b7480ecdb6439ca3ec96cc26a7d12e.setContent(html_eb48d0348c864095b1ca54871ff6ed21);
+        
+
+        marker_b3b6ab96cace45ffbb83df9390185143.bindPopup(popup_79b7480ecdb6439ca3ec96cc26a7d12e)
+        ;
+
+        
+    
+    
+            var marker_3752cff7aa224d4986e73ed56cafed99 = L.marker(
+                [44.9188509, -93.2781488],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_6d5cf70cdc64477ca9ebbc526abd1d4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f002433c35fe43ec9e6379c5954877a8 = $(`<div id="html_f002433c35fe43ec9e6379c5954877a8" style="width: 100.0%; height: 100.0%;"><p><b>Papa John's</b></p><p>3.5 stars</p><p>4618 Nicollet Ave, Minneapolis, MN 55419</p></div>`)[0];
+            popup_6d5cf70cdc64477ca9ebbc526abd1d4a.setContent(html_f002433c35fe43ec9e6379c5954877a8);
+        
+
+        marker_3752cff7aa224d4986e73ed56cafed99.bindPopup(popup_6d5cf70cdc64477ca9ebbc526abd1d4a)
+        ;
+
+        
+    
+    
+            var marker_066dfbed1e354b2999a6fd0d8875aaa1 = L.marker(
+                [44.9267531, -93.2269732],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_50ebbb573c974c0d9c3e564ac687a24c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_927895f679d24676879e1d3c8e213a4a = $(`<div id="html_927895f679d24676879e1d3c8e213a4a" style="width: 100.0%; height: 100.0%;"><p><b>Chicago's Taste Authority - Minneapolis</b></p><p>3.5 stars</p><p>3101 E 42nd St, Minneapolis, MN 55406</p></div>`)[0];
+            popup_50ebbb573c974c0d9c3e564ac687a24c.setContent(html_927895f679d24676879e1d3c8e213a4a);
+        
+
+        marker_066dfbed1e354b2999a6fd0d8875aaa1.bindPopup(popup_50ebbb573c974c0d9c3e564ac687a24c)
+        ;
+
+        
+    
+    
+            var marker_ed111dd2cc014307abe9e4a51bebaf08 = L.marker(
+                [44.95759, -93.2948],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_a30ec847224a40b4a2278191a98d0321 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82872f6d1a9a4a188355e24b32a974c9 = $(`<div id="html_82872f6d1a9a4a188355e24b32a974c9" style="width: 100.0%; height: 100.0%;"><p><b>Domino's Pizza</b></p><p>1.5 stars</p><p>2441 Hennepin Ave, Minneapolis, MN 55405</p></div>`)[0];
+            popup_a30ec847224a40b4a2278191a98d0321.setContent(html_82872f6d1a9a4a188355e24b32a974c9);
+        
+
+        marker_ed111dd2cc014307abe9e4a51bebaf08.bindPopup(popup_a30ec847224a40b4a2278191a98d0321)
+        ;
+
+        
+    
+    
+            var marker_62cc586c9e914ecab94fe6757dd647fe = L.marker(
+                [44.9175594, -93.2163301],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_62cabf1b059943c785d723310b0ab13c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c12473d9b9fe4ceb96393981d3db47ca = $(`<div id="html_c12473d9b9fe4ceb96393981d3db47ca" style="width: 100.0%; height: 100.0%;"><p><b>Domino's Pizza</b></p><p>4.0 stars</p><p>4735 Hiawatha Ave, Minneapolis, MN 55406</p></div>`)[0];
+            popup_62cabf1b059943c785d723310b0ab13c.setContent(html_c12473d9b9fe4ceb96393981d3db47ca);
+        
+
+        marker_62cc586c9e914ecab94fe6757dd647fe.bindPopup(popup_62cabf1b059943c785d723310b0ab13c)
+        ;
+
+        
+    
+    
+            var marker_f361d64b771646739f81753132d3950e = L.marker(
+                [45.00798, -93.23679],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_158fc3508fbb48069991047a3e113f65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c26649c05f1459bb0e720ac0142d1b8 = $(`<div id="html_4c26649c05f1459bb0e720ac0142d1b8" style="width: 100.0%; height: 100.0%;"><p><b>Domino's Pizza</b></p><p>3.0 stars</p><p>1901 Johnson St NE, Minneapolis, MN 55418</p></div>`)[0];
+            popup_158fc3508fbb48069991047a3e113f65.setContent(html_4c26649c05f1459bb0e720ac0142d1b8);
+        
+
+        marker_f361d64b771646739f81753132d3950e.bindPopup(popup_158fc3508fbb48069991047a3e113f65)
+        ;
+
+        
+    
+    
+            var marker_4566a3381cac4e40a49382a4a9f529df = L.marker(
+                [44.9741580961193, -93.2269260615801],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_051c4b989857407491a314d9d4d541ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47c635b36dc04d81a82f1c221f9909c3 = $(`<div id="html_47c635b36dc04d81a82f1c221f9909c3" style="width: 100.0%; height: 100.0%;"><p><b>Domino's Pizza</b></p><p>2.0 stars</p><p>215 Oak St SE, Minneapolis, MN 55414</p></div>`)[0];
+            popup_051c4b989857407491a314d9d4d541ea.setContent(html_47c635b36dc04d81a82f1c221f9909c3);
+        
+
+        marker_4566a3381cac4e40a49382a4a9f529df.bindPopup(popup_051c4b989857407491a314d9d4d541ea)
+        ;
+
+        
+    
+    
+            var marker_a6e6e6ce3ac443cdae58df1693bbf2f3 = L.marker(
+                [44.959646193986, -93.2933664321899],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_c7888c28614d4a56a1fa22d7e3fcdf9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e235b7c788240afa357444f430f8288 = $(`<div id="html_2e235b7c788240afa357444f430f8288" style="width: 100.0%; height: 100.0%;"><p><b>Pizza Hut</b></p><p>1.5 stars</p><p>2313 Hennepin Ave, Minneapolis, MN 55405</p></div>`)[0];
+            popup_c7888c28614d4a56a1fa22d7e3fcdf9d.setContent(html_2e235b7c788240afa357444f430f8288);
+        
+
+        marker_a6e6e6ce3ac443cdae58df1693bbf2f3.bindPopup(popup_c7888c28614d4a56a1fa22d7e3fcdf9d)
+        ;
+
+        
+    
+    
+            var marker_d1c6b03be8344012bb6284cba90cc673 = L.marker(
+                [45.0319961, -93.3711612],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_2217b2492fd141faae5ae7c9518edb20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0e09c1eb1be438d8c70bcbe09ade108 = $(`<div id="html_f0e09c1eb1be438d8c70bcbe09ade108" style="width: 100.0%; height: 100.0%;"><p><b>New Hope Bowl & Lounge</b></p><p>4.5 stars</p><p>7107 42nd Ave N, Minneapolis, MN 55427</p></div>`)[0];
+            popup_2217b2492fd141faae5ae7c9518edb20.setContent(html_f0e09c1eb1be438d8c70bcbe09ade108);
+        
+
+        marker_d1c6b03be8344012bb6284cba90cc673.bindPopup(popup_2217b2492fd141faae5ae7c9518edb20)
+        ;
+
+        
+    
+    
+            var marker_08ccef2d1730431085bec1e10c574908 = L.marker(
+                [44.980884, -93.2348347726989],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_1a7127a542a14a20af3f10d8592bcdd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ca2fee81d6d459a9c93d0db05c7d93e = $(`<div id="html_6ca2fee81d6d459a9c93d0db05c7d93e" style="width: 100.0%; height: 100.0%;"><p><b>Pizza Hut</b></p><p>1.5 stars</p><p>1402 5th St SE, Minneapolis, MN 55414</p></div>`)[0];
+            popup_1a7127a542a14a20af3f10d8592bcdd0.setContent(html_6ca2fee81d6d459a9c93d0db05c7d93e);
+        
+
+        marker_08ccef2d1730431085bec1e10c574908.bindPopup(popup_1a7127a542a14a20af3f10d8592bcdd0)
+        ;
+
+        
+    
+    
+            var marker_39c701f303ff492c96a9ded5d8866d79 = L.marker(
+                [44.88484, -93.2778892],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_acbfdab233b049f098f1145f81d65008 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80d6642c2e754c08a9631504d5789b66 = $(`<div id="html_80d6642c2e754c08a9631504d5789b66" style="width: 100.0%; height: 100.0%;"><p><b>American Pie Pizza</b></p><p>3.0 stars</p><p>6529 Nicollet Ave, Richfield, MN 55423</p></div>`)[0];
+            popup_acbfdab233b049f098f1145f81d65008.setContent(html_80d6642c2e754c08a9631504d5789b66);
+        
+
+        marker_39c701f303ff492c96a9ded5d8866d79.bindPopup(popup_acbfdab233b049f098f1145f81d65008)
+        ;
+
+        
+    
+    
+            var marker_65a4944e406b4d88aa9576e9e015ac26 = L.marker(
+                [44.916029, -93.2629099],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_675c87f0eea74a2fb1e29711ee0e0690 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_588e8c902ead452e85153e4cb8c5e2da = $(`<div id="html_588e8c902ead452e85153e4cb8c5e2da" style="width: 100.0%; height: 100.0%;"><p><b>Pizza Hut</b></p><p>2.5 stars</p><p>4800 Chicago Ave, Minneapolis, MN 55417</p></div>`)[0];
+            popup_675c87f0eea74a2fb1e29711ee0e0690.setContent(html_588e8c902ead452e85153e4cb8c5e2da);
+        
+
+        marker_65a4944e406b4d88aa9576e9e015ac26.bindPopup(popup_675c87f0eea74a2fb1e29711ee0e0690)
+        ;
+
+        
+    
+    
+            var marker_3ea9267cb50f4f9cb20bfc05e378c8cd = L.marker(
+                [44.9497223, -93.3599014],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_69ee161a2dd54d76a00d1e2b1a2e4a6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9580d439df4c4106b265389e3a9d85af = $(`<div id="html_9580d439df4c4106b265389e3a9d85af" style="width: 100.0%; height: 100.0%;"><p><b>Papa John's Pizza</b></p><p>3.0 stars</p><p>6314 Minnetonka Blvd, Minneapolis, MN 55416</p></div>`)[0];
+            popup_69ee161a2dd54d76a00d1e2b1a2e4a6f.setContent(html_9580d439df4c4106b265389e3a9d85af);
+        
+
+        marker_3ea9267cb50f4f9cb20bfc05e378c8cd.bindPopup(popup_69ee161a2dd54d76a00d1e2b1a2e4a6f)
+        ;
+
+        
+    
+    
+            var marker_ee2f8c29f9924761861209e045c4d5c7 = L.marker(
+                [44.98081, -93.23581],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_407a4b80d8e54378b7ed07ec7e559970 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d515e143416640b79c688b93b2e3d031 = $(`<div id="html_d515e143416640b79c688b93b2e3d031" style="width: 100.0%; height: 100.0%;"><p><b>Num-mi Vietnamese Kitchen & Grill</b></p><p>4.5 stars</p><p>405 14th Ave SE, Minneapolis, MN 55414</p></div>`)[0];
+            popup_407a4b80d8e54378b7ed07ec7e559970.setContent(html_d515e143416640b79c688b93b2e3d031);
+        
+
+        marker_ee2f8c29f9924761861209e045c4d5c7.bindPopup(popup_407a4b80d8e54378b7ed07ec7e559970)
+        ;
+
+        
+    
+    
+            var marker_226e4bf219fc4741aa6231a66261efd5 = L.marker(
+                [44.9473234217442, -93.2774153351784],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_e1a0223f3e6a44ff84e9a32595e303e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25fc1104aff04c138e3e81554cba835f = $(`<div id="html_25fc1104aff04c138e3e81554cba835f" style="width: 100.0%; height: 100.0%;"><p><b>Little Caesars</b></p><p>3.5 stars</p><p>3015 S Nicollet Ave, Minneapolis, MN 55408</p></div>`)[0];
+            popup_e1a0223f3e6a44ff84e9a32595e303e0.setContent(html_25fc1104aff04c138e3e81554cba835f);
+        
+
+        marker_226e4bf219fc4741aa6231a66261efd5.bindPopup(popup_e1a0223f3e6a44ff84e9a32595e303e0)
+        ;
+
+        
+    
+    
+            var marker_ec888df02f004537b0c1b5dbfa5e338a = L.marker(
+                [44.9727983059731, -93.2186962143325],
+                {}
+            ).addTo(map_b938e2b8f22048d58ba63dafbd699de7);
+        
+    
+        var popup_7becf4560e504b4c8e615e127914aa01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ccd030c5ad74437a3bed7ba760640f8 = $(`<div id="html_8ccd030c5ad74437a3bed7ba760640f8" style="width: 100.0%; height: 100.0%;"><p><b>Papa John's Pizza</b></p><p>2.0 stars</p><p>2639 University Ave SE, Minneapolis, MN 55414</p></div>`)[0];
+            popup_7becf4560e504b4c8e615e127914aa01.setContent(html_8ccd030c5ad74437a3bed7ba760640f8);
+        
+
+        marker_ec888df02f004537b0c1b5dbfa5e338a.bindPopup(popup_7becf4560e504b4c8e615e127914aa01)
+        ;
+
+        
+    
+</script>
